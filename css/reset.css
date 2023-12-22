@@ -1,0 +1,143 @@
+/* Reset CSS */
+
+/* Box sizing border-box reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+figure,
+figcaption,
+blockquote,
+pre,
+fieldset,
+legend,
+textarea,
+button,
+input,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography reset */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* List reset */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Anchor reset */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Table reset */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Resetting some default styles */
+html,
+body,
+div,
+article,
+section,
+main,
+nav,
+header,
+footer,
+aside,
+figure,
+figcaption,
+hgroup,
+menu,
+nav,
+details,
+summary {
+    display: block;
+}
+
+/* Addressing common issues with form elements */
+input,
+select,
+textarea,
+button {
+    margin: 0;
+    font-size: inherit;
+    vertical-align: middle;
+}
+
+/* Resetting the default button style */
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/* Resetting the input field appearance in IE */
+input::-ms-clear {
+    display: none;
+}
+
+input::-ms-reveal {
+    display: none;
+}
+
+/* Resetting the default focus styles */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
